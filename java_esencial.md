@@ -89,3 +89,104 @@
   byte/int + long -> long
   ```
 
+## Estructuras de Control
+
+### Sentencias de selección
+
+`if-else`
+
+```java
+if(condición){
+	//bloque 1
+}
+else{
+	//bloque 2
+}
+```
+
+`switch`
+
+```java
+switch(exp){
+case a: 
+...
+case b:
+...
+case c: 
+...
+}
+```
+
+### Sentencias de iteración
+
+`for`
+
+```java
+for(inicialización; condición; iteración){
+//bloque de código 
+}
+```
+
+`while`
+
+```
+while(condición){
+//bloque de código
+}
+```
+
+`do-while`
+
+```java
+do{
+//bloque de código
+}
+while(condición)
+
+```
+
+### Sentencias de salto
+
+`break;`
+
+`continue;`
+
+`return;`
+
+## Clases
+
+### Función de las clases
+
+* Describen los objetos
+* Que variables tienen
+* Como se manipulan esas variables
+* Como se destruyen los objetos
+
+### Ventajas de las clases
+
+* Modular
+* Reutilizable y transferible
+* Extensible
+* Testable
+* Mantenible
+
+### Forma general de una clase
+
+```
+class NombreDeLaClase{
+//declaración de variables de instancia
+tipo variable1;
+tipo variable2;
+//..
+tipo variableN
+//declaración de métodos
+tipo metodo1(parámetros){
+	//cuerpo del método
+}
+tipo metodo2(parámetros){
+	//cuerpo del método
+}	
+
+}
+```
+
