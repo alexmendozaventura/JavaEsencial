@@ -1,5 +1,24 @@
 # JAVA ESENCIAL
 
+## Características de Java
+
+* Escríbelo una vez, ejecútalo en cualquier lugar
+
+* Independencia de la plataforma
+
+  ![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\01_caracteristica_java_multiplataforma.png)
+
+* Lenguaje orientado a objetos
+
+  * Abstracción
+  * Encapsulación
+  * Polimorfismo
+  * Herencia
+
+## Características principales de Java
+
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\02_caracteristicas_principales_java.png)
+
 ## IDENTIFICADORES
 
 ### Que es un identificador
@@ -190,3 +209,57 @@ tipo metodo2(parámetros){
 }
 ```
 
+## Encapsulación
+
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\01_encapsulación.png)
+
+### Niveles
+
+* Modificadores de acceso
+
+* Paquetes
+
+* Módulos
+
+  ![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\02_niveles_encapsulación.png)
+
+  
+
+### Organización de archivos 
+
+```
+https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+```
+
+Para abrir el explorador 
+
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\03_explorador_de_archivos.png)
+
+Para abrir la estructura del proyecto
+
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\04_estructura_del_proyecto.png)
+
+Para seleccionar el origen de las fuentes de compilación 
+
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\05_seleccionar_origen_fuente.png)
+
+Módulos
+
+Declaración de un modulo 
+
+```
+nombre del archivo: module-info.java
+module modulename{
+
+}
+```
+
+Directivas
+
+* requires
+* requires transitive
+* exports
+* exports...to
+* uses
+* provides...with
+* open, opens y opens...to
