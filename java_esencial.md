@@ -19,7 +19,7 @@
 
 ![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\02_caracteristicas_principales_java.png)
 
-## IDENTIFICADORES
+## Identificadores
 
 ### Que es un identificador
 
@@ -30,10 +30,30 @@
 
 * **Debe** comenzar con letra, guion bajo o carácter de moneda
 
+  ```java
+  Character.isJavaIdentifierStart(miCaracter);
+  ```
+
 * **Puede** contener: letras, números, caracteres moneda o caracteres de conexión
+
+  ```java
+  Character.isJavaIdentifierPart(miCaracter);
+  ```
+
 * Longitud
+
 * No puede ser palabra clave
+
 * Case-sensitive
+
+  Ejemplos incorrectos
+
+  | Identificador incorrecto | Causa                         |
+  | ------------------------ | ----------------------------- |
+  | 2_imagen                 | Comienza con un número        |
+  | Mi variable              | Contiene un espacio           |
+  | x+y                      | + no es un carácter valido    |
+  | true                     | true es una palabra reservada |
 
 ## Convenciones
 
@@ -41,25 +61,25 @@
 
 * UpperCamelCase
 * Acrónimos
-* `CuentaBancaria, Usuario, ClienteHttp`
+* Ejemplos: `CuentaBancaria, Usuario, ClienteHttp`
 
 ### Métodos
 
 * LowerCamelCase
 * Verbos en infinitivo o imperativo
-* `convertir(),convertirAEuros(),obtenerNombre()`
-* `convierte(),convierteAEuros(),obtenNombre()`
+* Ejemplos infinitivo : `convertir(),convertirAEuros(),obtenerNombre()`
+* Ejemplos imperativo: `convierte(),convierteAEuros(),obtenNombre()`
 
 ### Variables
 
 * LowerCamelCase
 * Nombres descriptivos
-* `clienteActual, velocidad, numeroDePedido`
+* Ejemplos: `clienteActual, velocidad, numeroDePedido`
 
 ### Constantes
 
 * Todo mayúsculas
-* `PI, NUMERO_DE_SEMANAS`
+* Ejemplos: `PI, NUMERO_DE_SEMANAS`
 
 ## Conversiones
 
