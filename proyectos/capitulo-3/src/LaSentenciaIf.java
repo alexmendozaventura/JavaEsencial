@@ -12,6 +12,7 @@ public class LaSentenciaIf {
 
         String color = "";
 
+        //Uso de condicional If
         if (numeroIntroducido == numeroPensado ){
             color = "\033[0;32m";
             System.out.println(color+"¡Enhorabuena!");
@@ -19,7 +20,6 @@ public class LaSentenciaIf {
         else{
             color = "\033[0;31m";
             System.out.println(color+"Lo sentimos el número que estaba pensando es " +numeroPensado);
-
         }
     }
 }

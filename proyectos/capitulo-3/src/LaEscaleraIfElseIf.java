@@ -4,9 +4,13 @@
 import java.util.Scanner;
 public class LaEscaleraIfElseIf {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Escribe un número entero y te daré información sobre el");
+
         int numero = scanner.nextInt();
+
+        //Uso de condicional If else if
         if (numero < 3){
             System.out.println("El número introducido es menor que 3");
         }

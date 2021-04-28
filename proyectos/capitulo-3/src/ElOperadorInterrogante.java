@@ -23,6 +23,7 @@ public class ElOperadorInterrogante {
             resultado = dividendo/divisor;
         }
         */
+
         //Uso de operador ternario
         resultado = divisor == 0 ? 0 : dividendo/divisor;
 
