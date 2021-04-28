@@ -1,4 +1,4 @@
-/*
+/**
 * Video15 - El ciclo de vida de las variables
 * */
 public class AlcanceDeLasVariables {
