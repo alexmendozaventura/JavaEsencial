@@ -115,7 +115,7 @@ Cuando un dato primitivo se convierte en un dato primitivo más pequeño(Se pued
 
 `double -> byte, short, char, int, long o float`
 
-## Reglas de promoción 
+### Reglas de promoción 
 
 * Si alguno es `double`, resto `double`
 
@@ -134,7 +134,7 @@ Cuando un dato primitivo se convierte en un dato primitivo más pequeño(Se pued
   byte/int + long -> long
   ```
 
-## Estructuras de Control
+## Introducción a las Estructuras de Control
 
 ### Sentencias de selección
 
@@ -192,11 +192,11 @@ while(condición)
 
 ### Sentencias de salto
 
-`break;`
+`break;` permite salir de una estructura de control.
 
-`continue;`
+`continue;` permite saltar a otra iteración.
 
-`return;`
+`return;` sirve para salir  de la ejecución de un método y volver al llamado de donde se invoco.
 
 ## Clases
 
