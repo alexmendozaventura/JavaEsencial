@@ -81,13 +81,17 @@
 * Todo mayúsculas
 * Ejemplos: `PI, NUMERO_DE_SEMANAS`
 
-## Conversiones
+## Evaluación de expresiones y reglas de promoción 
 
 ### Conversión de promoción
+
+Cuando un dato primitivo se convierte en un dato primitivo más amplio.
 
 `byte -> short, int, long, float o double`
 
 `short -> int, long, float o double`
+
+`char -> int, long, float o double`
 
 `int -> long, float o double`
 
@@ -96,6 +100,8 @@
 `float -> double`
 
 ### Conversión de contracción
+
+Cuando un dato primitivo se convierte en un dato primitivo más pequeño(Se puede perder precisión en la información)
 
 `short -> byte o char`
 
