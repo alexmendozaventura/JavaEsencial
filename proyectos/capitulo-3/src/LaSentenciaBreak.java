@@ -3,7 +3,7 @@
  * */
 public class LaSentenciaBreak {
     public static void main(String[] args) {
-
+        //Programa para obtener el primer número multiplo de 2,3,5
         int numeroEncontrado ;
         //Uso de break con ciclo for
         System.out.println("**************Sentencia for********************");
