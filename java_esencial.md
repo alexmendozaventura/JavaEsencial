@@ -215,6 +215,16 @@ while(condición)
 * Testable
 * Mantenible
 
+**Ejemplo**
+
+**Clase**
+
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\03_POO_ejemplo.png)
+
+**Instancia**
+
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\04_POO_ejemplo_instancia.png)
+
 ### Forma general de una clase
 
 ```
@@ -224,6 +234,7 @@ tipo variable1;
 tipo variable2;
 //..
 tipo variableN
+
 //declaración de métodos
 tipo metodo1(parámetros){
 	//cuerpo del método
@@ -237,7 +248,7 @@ tipo metodo2(parámetros){
 
 ## Encapsulación
 
-![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\01_encapsulación.png)
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\05_encapsulación.png)
 
 ### Niveles
 
@@ -247,7 +258,7 @@ tipo metodo2(parámetros){
 
 * Módulos
 
-  ![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\02_niveles_encapsulación.png)
+  ![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\06_niveles_encapsulación.png)
 
   
 
@@ -259,15 +270,15 @@ https://maven.apache.org/guides/introduction/introduction-to-the-standard-direct
 
 Para abrir el explorador 
 
-![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\03_explorador_de_archivos.png)
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\07_explorador_de_archivos.png)
 
 Para abrir la estructura del proyecto
 
-![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\04_estructura_del_proyecto.png)
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\08_estructura_del_proyecto.png)
 
 Para seleccionar el origen de las fuentes de compilación 
 
-![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\05_seleccionar_origen_fuente.png)
+![](C:\Users\alexm\Documents\GitHub\JavaEsencial\imagenes\09_seleccionar_origen_fuente.png)
 
 Módulos
 
