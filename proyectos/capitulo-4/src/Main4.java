@@ -3,8 +3,7 @@
  * */
 public class Main4 {
     public static void main(String[] args) {
+        //Uso de constantes
      CuentaBancariav4 cuentaDeClarie = new CuentaBancariav4("Clarie Antunez", CuentaBancariav4.TIPO_AHORRO,5_600);
-
-
     }
 }
